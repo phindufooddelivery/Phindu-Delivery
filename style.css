@@ -388,7 +388,7 @@ i, .icon {
 /* ========== RESPONSIVE DESIGN – MOBILE FIRST ========== */
 
 /* Small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .container {
     padding: 0 20px;
   }
@@ -450,10 +450,44 @@ i, .icon {
   }
 
   /* Featured foods (price-grid) */
-  .featured-foods .price-grid,
-  .price-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+  .featured-foods .price-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px;
+  }
+
+  /* Make each card compact */
+  .featured-foods .price-card {
+    padding: 10px 5px;
+  }
+
+  .featured-foods .price-card .food-img {
+    height: 70px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 6px;
+  }
+
+  .featured-foods .price-card h4 {
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .featured-foods .price-card .price {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+  }
+
+  .featured-foods .price-card .add-cart {
+    padding: 6px 0;
+    font-size: 0.65rem;
+    gap: 3px;
+  }
+
+  .featured-foods .price-card .add-cart i {
+    font-size: 0.8rem;
   }
 
   /* Menu category headings */
