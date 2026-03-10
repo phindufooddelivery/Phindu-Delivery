@@ -27,35 +27,40 @@ i, .icon {
 
 /* Hero Section */
 .hero {
+    background: linear-gradient(135deg, #e96a21, #f28c28);
+    color: white;
     text-align: center;
-    margin-bottom: 2rem;
+    padding: 40px 20px;
+    border-radius: 25px;
+    margin: 20px;
 }
 
 .hero h1 {
-    font-size: 2.3rem;
-    font-weight: 700;
-    color: #b45f2b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 
-.hero .sub {
-    font-size: 1.3rem;
-    color: #7e5a41;
-    margin-top: 0.3rem;
+.hero p {
+    font-size: 16px;
+    margin: 5px 0;
+    opacity: 0.95;
 }
 
 .hero .location {
-    font-size: 1rem;
-    color: #a5714e;
-    margin-top: 0.5rem;
-    background: #fff1e6;
-    display: inline-block;
-    padding: 0.3rem 1.2rem;
-    border-radius: 40px;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.instructions {
+    background: #f6e6d6;
+    color: #8a4a1f;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .note {
@@ -436,33 +441,42 @@ i, .icon {
     }
 
     .hero {
+    background: linear-gradient(135deg, #e96a21, #f28c28);
+    color: white;
     text-align: center;
-    margin-bottom: 2rem;
+    padding: 40px 20px;
+    border-radius: 25px;
+    margin: 20px;
 }
+
 .hero h1 {
-    font-size: 2.3rem;
-    font-weight: 700;
-    color: #b45f2b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
-.hero .sub {
-    font-size: 1.3rem;
-    color: #7e5a41;
-    margin-top: 0.3rem;
+
+.hero p {
+    font-size: 16px;
+    margin: 5px 0;
+    opacity: 0.95;
 }
+
 .hero .location {
-    font-size: 1rem;
-    color: #a5714e;
-    margin-top: 0.5rem;
-    background: #fff1e6;
-    display: inline-block;
-    padding: 0.3rem 1.2rem;
-    border-radius: 40px;
+    font-size: 15px;
+    margin-top: 6px;
 }
+
+.instructions {
+    background: #f6e6d6;
+    color: #8a4a1f;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+
 .note {
     background: #fff1e6;
     padding: 0.8rem 1.5rem;
