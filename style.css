@@ -31,7 +31,7 @@ i, .icon {
     margin-bottom: 2rem;
 }
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
     color: #b45f2b;
     display: flex;
@@ -499,8 +499,8 @@ i, .icon {
 
   /* Menu items grid */
   .menu-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
   .menu-item {
     padding: 12px;
