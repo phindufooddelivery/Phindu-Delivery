@@ -65,35 +65,40 @@ i, .icon {
 }
 
 .delivery-hero h1 {
-    font-size: clamp(28px, 7vw, 40px);
+    font-size: clamp(26px, 8vw, 38px);
     font-weight: 800;
     letter-spacing: 1.5px;
-    margin-bottom: 0 0 15px 0;
+    margin-bottom: 0 0 12px 0;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     white-space: nowrap;
 }
 
-.delivery-hero p {
-    font-size: 16px;
+.delivery-hero .tagline{
+    font-size: 18px;
     margin: 8px 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.delivery-hero p {
+    font-size: 14px;
+    margin: 8px 0;
+    line-height: 1.5;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .delivery-hero .location {
     font-size: 16px;
-    margin: 8px 0;
+    margin: 10px 0;
     line-height: 1.5;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    white-space: normal;
 }
 
 
 /* Instructions & Note */
 .delivery-hero .instructions {
     font-size: 16px;
-    margin: 8px 0;
+    margin: 10px 0 5px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    white-space: normal;
 }
 
 .note {
@@ -459,8 +464,7 @@ i, .icon {
     display: flex;
 }
 
-/* ===== MOBILE STYLES (max-width: 600px) ===== */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 360px) {
     .container {
         padding: 1rem;
     }
@@ -472,16 +476,19 @@ i, .icon {
     }
 
     .delivery-hero h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
-    .delivery-hero p {
+    .delivery-hero .tagline {
         font-size: 16px;
     }
 
-    .delivery-hero .location {
-        font-size: 15px;
-        padding: 5px 14px;
+    .delivery-hero p {
+        font-size: 14px;
+    }
+
+    .delivery-hero .location, .delivery-hero .instructions {
+        font-size: 14px;
     }
 
     .restaurant-tiles {
