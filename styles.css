@@ -30,9 +30,9 @@ i, .icon {
     background: linear-gradient(145deg, #ff7a2f, #ff5500);
     color: #ffffff; /* Force all text to white */
     text-align: center;
-    padding: 50px 30px;
-    border-radius: 35px;
-    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 25px;
+    margin: 15px;
     box-shadow: 0 15px 25px rgba(230, 90, 20, 0.3);
     position: relative;
     overflow: hidden;
@@ -65,7 +65,7 @@ i, .icon {
 }
 
 .delivery-hero h1 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 800;
     letter-spacing: 1.5px;
     margin-bottom: 15px;
@@ -73,20 +73,14 @@ i, .icon {
 }
 
 .delivery-hero p {
-    font-size: 18px;
+    font-size: 16px;
     margin: 8px 0;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .delivery-hero .location {
-    font-size: 17px;
-    margin-top: 10px;
-    font-weight: 500;
-    display: inline-block;
-    background: rgba(255,255,255,0.25);
-    padding: 6px 18px;
-    border-radius: 50px;
-    backdrop-filter: blur(3px);
+    font-size: 15px;
+    padding: 5px 14px;
 }
 
 
