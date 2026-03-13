@@ -474,7 +474,7 @@ i, .icon {
         padding: 0.8rem;
     }
 
-    .hero h1 {
+    .delivery-hero h1 {
         font-size: 1.7rem;
         white-space: nowrap;
         overflow: visible;
@@ -482,14 +482,14 @@ i, .icon {
         margin-bottom: 0.2rem;
     }
 
-    .hero .sub {
+    .delivery-hero .sub {
         font-size: 1rem;
         white-space:  nowrap;
         overflow: visible;
         margin-bottom: 0.3rem;
     }
 
-    .hero .location {
+    .delivery-hero .location {
         font-size: 0.9rem;
         white-space: normal;
         word-break: break-word;
@@ -657,15 +657,15 @@ i, .icon {
 
 /* Extra small devices (≤380px) */
 @media only screen and (max-width: 380px) {
-    .hero h1 {
+    .delivery-hero h1 {
         font-size: 1.5rem;
     }
 
-    .hero .sub {
+    .delivery-hero .sub {
         font-size: 0.9rem;
     }
 
-    .hero .location {
+    .delivery-hero .location {
         font-size: 0.8rem;
     }
 
