@@ -475,24 +475,26 @@ i, .icon {
     }
 
     .hero h1 {
-        font-size: calc(1.2rem + 1vw);
+        font-size: calc(1.3rem + 0.5vw);
         white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        overflow: visible;
         max-width: 100%;
     }
 
     .hero .sub {
-        font-size: 0.9rem;
-        white-space:  normal;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        font-size: 1rem;
+        white-space:  nowrap;
+        overflow: visible;
     }
 
     .hero .location {
         font-size: 0.9rem;
         white-space: normal;
         word-break: break-word;
+        background: none;
+        padding: 0;
+        border-radius: 60px;
+        display: inline-block;
     }
 
     .note {
@@ -500,6 +502,9 @@ i, .icon {
         padding: 0.6rem 1rem;
         white-space: normal;
         word-break: break-word;
+        background: #fff1e6;
+        padding: 0.6rem 1rem;
+        border-radius: 60px;
     }
 
     /* Horizontal scroll for restaurant tiles */
