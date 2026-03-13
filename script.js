@@ -358,14 +358,21 @@ clearBtn.addEventListener('click', function() {
 
 // Order via WhatsApp
 orderBtn.addEventListener('click', function() {
-    const name = nameInput.value.trim();
-    const location = locationInput.value.trim();
-    const phone = phoneInput.value.trim();
+    const name = nameInput.value.trim().replace(/<[^>]*>/g, '').slice(0, 100);
+    const location = locationInput.value.trim().replace(/<[^>]*>/g, '').slice(0, 100);
+    const phone = phoneInput.value.trim().replace(/<[^>]*>/g, '').slice(0, 20);
 
     if (!name || !location || !phone) {
         alert('Please fill in your name, location, and phone number.');
         return;
     }
+
+    const phoneRegex = /^[0-9+\-\s]+$/;
+    if (!phoneRegex.test(phone)) {
+        alert('Please enter a valid phone number (digits, spaces, +, - only).');
+        return;
+    }
+
     if (cart.length === 0) {
         alert('Your cart is empty.');
         return;
